@@ -13,21 +13,6 @@ h6 {
     color: #444444;
 }
 
-.bg-steel {
-    background-color: #5f788a;
-}
-
-.site-header .navbar-nav .nav-link {
-    color: #cbd5db;
-}
-
-.site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
-}
-
-.site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
-}
 
 .content-section {
     background: #ffffff;
@@ -35,6 +20,7 @@ h6 {
     border: 1px solid #dddddd;
     border-radius: 3px;
     margin-bottom: 20px;
+    margin-top: 10vh;
 }
 
 .article-title {
@@ -82,4 +68,86 @@ a.article-title:hover {
 
 .account-heading {
     font-size: 2.5rem;
+}
+
+.navbar .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: #14213D;
+}
+
+.navbar {
+    background-color: white;
+    color: #14213d;
+    border-radius: 0;
+    margin: 0 !important;
+    z-index: 1;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, .15);
+}
+
+.navbar-toggle {
+    color: #14213d;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #14213D;
+}
+
+#pitch {
+    font-size: 22px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navbar-right {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Fredoka One', cursive;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    padding: 8px;
+}
+
+@media (min-width: 768px) {
+    .navbar .btn {
+        padding: 8px;
+        font-size: 14px;
+        line-height: 1;
+        float: right;
+        background-color: #14213D;
+        color: white;
+        box-shadow: 0 0.2rem 0.5rem rgba(103, 110, 144, .2), 0 0 0 0.1rem rgba(103, 110, 144, .05);
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .btn {
+        margin: 0 !important;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .row {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
